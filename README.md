@@ -41,10 +41,10 @@ The default mode inspects unstaged and staged changes. `-BaseRef` compares `Base
 
 ## Classifications
 
-- `RELATED_TEST_FOUND` 窶・a deterministic filename/content relationship to an existing test was found; this is not a coverage measurement.
-- `NO_RELATED_TEST_FOUND` 窶・a source-like change has no deterministic relationship to the discovered tests.
-- `MANUAL_SMOKE_RECOMMENDED` 窶・a configuration or other behavior-sensitive change needs human review.
-- `UNKNOWN` 窶・the tool declines to infer coverage for documentation, private data, or an unrecognized file kind.
+- `RELATED_TEST_FOUND` — a deterministic filename/content relationship to an existing test was found; this is not a coverage measurement.
+- `NO_RELATED_TEST_FOUND` — a source-like change has no deterministic relationship to the discovered tests.
+- `MANUAL_SMOKE_RECOMMENDED` — a configuration or other behavior-sensitive change needs human review.
+- `UNKNOWN` — the tool declines to infer coverage for documentation, private data, or an unrecognized file kind.
 
 Each item includes its evidence and reason. A changed test is not treated as proof that the source behavior is covered.
 
