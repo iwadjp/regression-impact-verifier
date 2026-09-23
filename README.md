@@ -58,4 +58,4 @@ Filename/content relationships are conservative heuristics. A related test may n
 
 ## License
 
-PolyForm Noncommercial License 1.0.0. See `LICENSE`. Version and release status are recorded in `VERSION.md`. This directory is a public-ready candidate; it has not been published.
+PolyForm Noncommercial License 1.0.0. See `LICENSE`. Version and release status are recorded in `VERSION.md`. This project is published on GitHub; see the repository's Releases for tagged versions.
